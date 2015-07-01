@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# MCR03ERTF1004-RESCUE-BB-1
+#
+DEF MCR03ERTF1004-RESCUE-BB-1 R 0 0 N Y 1 F N
+F0 "R" 75 0 50 V V C CNN
+F1 "MCR03ERTF1004-RESCUE-BB-1" 150 0 50 V V C CNN
+F2 "1608" -60 0 30 V V C CNN
+F3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" 80 0 30 V I C CNN
+$FPLIST
+ MCR03*
+$ENDFPLIST
+DRAW
+P 8 0 1 0  0 -100  -40 -80  40 -50  -40 -20  40 20  -40 50  40 80  0 100 N
+X ~ 1 0 200 100 D 60 60 1 1 P
+X ~ 2 0 -200 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

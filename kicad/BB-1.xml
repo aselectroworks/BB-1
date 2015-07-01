@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/Dropbox/dev/prj/BB-1/kicad/BB-1.sch</source>
+    <date>2015/06/28 16:20:57</date>
+    <tool>Eeschema (2015-06-13 BZR 5746)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BB-1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>NMJ4HCD2</value>
+      <footprint>neutric:NMJ4HCD2</footprint>
+      <libsource lib="neutrik" part="NMJ4HCD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558221B5</tstamp>
+    </comp>
+    <comp ref="Q103">
+      <value>MMBF5457</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering</footprint>
+      <libsource lib="fairchild" part="MMBF5457"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558225E0</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>NMJ4HCD2</value>
+      <footprint>neutric:NMJ4HCD2</footprint>
+      <libsource lib="neutrik" part="NMJ4HCD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55823502</tstamp>
+    </comp>
+    <comp ref="Q102">
+      <value>MMBF5457</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering</footprint>
+      <libsource lib="fairchild" part="MMBF5457"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55823581</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>MJ-179SMT</value>
+      <footprint>marushin-musen:MJ-179SMT</footprint>
+      <libsource lib="marushin-musen" part="MJ-179SMT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558392D9</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>SSM3J328R</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering</footprint>
+      <libsource lib="toshiba" part="SSM3J328R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583999A</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>RB161M-20</value>
+      <footprint>rohm:PMDU</footprint>
+      <libsource lib="rohm" part="RB161M-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55839D43</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>RB161M-20</value>
+      <footprint>rohm:PMDU</footprint>
+      <libsource lib="rohm" part="RB161M-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55839D94</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>RB161M-20</value>
+      <footprint>rohm:PMDU</footprint>
+      <libsource lib="rohm" part="RB161M-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55839DCC</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>RB161M-20</value>
+      <footprint>rohm:PMDU</footprint>
+      <libsource lib="rohm" part="RB161M-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55839E18</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>MCR03ERTF1004</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1M</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1004"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5585556C</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>GRM21A5C2E100JW01D</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">2012</field>
+        <field name="Value">10p</field>
+      </fields>
+      <libsource lib="murata" part="GRM21A5C2E100JW01D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558564BA</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>MCR03ERTF1001</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55856643</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>GRM31C5C1E104JA01L</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">3216</field>
+        <field name="Value">0.1u</field>
+      </fields>
+      <libsource lib="murata" part="GRM31C5C1E104JA01L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558567A8</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>GRM31M5C1H473JA01L</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">3216</field>
+        <field name="Value">0.047u</field>
+      </fields>
+      <libsource lib="murata" part="GRM31M5C1H473JA01L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55856CC8</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>MCR03ERTF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">OPEN</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5585707E</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>MCR03ERTF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">OPEN</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558577FD</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55858553</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55859FC0</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>OSWT1608C1A</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="hgtlight" part="OSWT1608C1A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5585B83D</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>RV141F-40E3-18BL-B100K</value>
+      <footprint>taiwanalpha:RV141F-40E3</footprint>
+      <datasheet>http://www.taiwanalpha.com.tw/english2014/p_e_032.htm</datasheet>
+      <fields>
+        <field name="Value">100kB</field>
+      </fields>
+      <libsource lib="taiwanalpha" part="RV141F-40E3-18BL-B100K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55875FEE</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>RV141F-40E3-18BL-A100K</value>
+      <footprint>taiwanalpha:RV141F-40E3</footprint>
+      <datasheet>http://www.taiwanalpha.com.tw/english2014/p_e_032.htm</datasheet>
+      <fields>
+        <field name="Value">100kA</field>
+      </fields>
+      <libsource lib="taiwanalpha" part="RV141F-40E3-18BL-A100K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55876497</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>RV141F-40E3-18BL-A500K</value>
+      <footprint>taiwanalpha:RV141F-40E3</footprint>
+      <datasheet>http://www.taiwanalpha.com.tw/english2014/p_e_032.htm</datasheet>
+      <fields>
+        <field name="Value">500kA</field>
+      </fields>
+      <libsource lib="taiwanalpha" part="RV141F-40E3-18BL-A500K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55876527</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>MCR03EZPJ000</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">0</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03EZPJ000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877079</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>MCR03EZPJ000</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">0</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03EZPJ000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877387</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>MCR03EZPJ000</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">0</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03EZPJ000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877450</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877A13</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877AB2</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877B52</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877C14</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55877DF1</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>GRM31C5C1E104JA01L</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">3216</field>
+        <field name="Value">0.1u</field>
+      </fields>
+      <libsource lib="murata" part="GRM31C5C1E104JA01L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55878391</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>EEE1EA3R3NR</value>
+      <footprint>Capacitors_SMD:c_elec_4x4.5</footprint>
+      <fields>
+        <field name="Value">3.3u/25(NP)</field>
+      </fields>
+      <libsource lib="Panasonic" part="EEE1EA3R3NR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558786E8</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>GRM31M5C1H473JA01L</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">3216</field>
+        <field name="Value">0.047u</field>
+      </fields>
+      <libsource lib="murata" part="GRM31M5C1H473JA01L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55878CC2</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>MCR03ERTF1004</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1M</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1004"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55878F1E</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>MCR03ERTF1004</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1M</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1004"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55878FED</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>MCR03ERTF1001</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55879546</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>ICL7660SIBAZ</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="intersil" part="ICL7660SIBAZ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5587B26A</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>FC71101</value>
+      <footprint>CLIFF:FC71101</footprint>
+      <libsource lib="CLIFF" part="FC71101"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E06EE</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>B9B-EH-A</value>
+      <footprint>Connectors_JST:B9B-EH-A</footprint>
+      <libsource lib="jst" part="B9B-EH-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E2319</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>OSWT1608C1A</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="hgtlight" part="OSWT1608C1A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E2E41</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>OSWT1608C1A</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="hgtlight" part="OSWT1608C1A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E2EEB</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>MCR03ERTF1001</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E2F8D</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>MCR03ERTF1001</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</datasheet>
+      <fields>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="rohm" part="MCR03ERTF1001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E3031</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>B3B-EH-A</value>
+      <footprint>Connectors_JST:B3B-EH-A</footprint>
+      <libsource lib="jst" part="B3B-EH-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E3B11</tstamp>
+    </comp>
+    <comp ref="P104">
+      <value>B3B-EH-A</value>
+      <footprint>Connectors_JST:B3B-EH-A</footprint>
+      <libsource lib="jst" part="B3B-EH-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E3E1F</tstamp>
+    </comp>
+    <comp ref="P105">
+      <value>B3B-EH-A</value>
+      <footprint>Connectors_JST:B3B-EH-A</footprint>
+      <libsource lib="jst" part="B3B-EH-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558E3ED3</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>GRM188R60J106ME47J</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</datasheet>
+      <fields>
+        <field name="Size">1608</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="murata" part="GRM188R60J106ME47J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558F7D73</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neutrik" part="NMJ4HCD2">
+      <description>Phone Connectors 2C MONO 2-SPST NC</description>
+      <docs>http://www.neutrik.co.jp/jp/plugs-und-jacks-1/m-series/nmj4hcd2</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NMJ4HCD2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="S" type="passive"/>
+        <pin num="SN" name="SN" type="passive"/>
+        <pin num="T" name="T" type="passive"/>
+        <pin num="TN" name="TN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fairchild" part="MMBF5457">
+      <description>JFET N-CH 25V 350MW SOT23</description>
+      <docs>http://www.fairchildsemi.com/datasheets/MM/MMBF5457.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBF5457</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rohm" part="MCR03ERTF">
+      <aliases>
+        <alias>MCR03ERTF4991</alias>
+        <alias>MCR03ERTF2204</alias>
+        <alias>MCR03ERTF1002</alias>
+        <alias>MCR03ERTF1004</alias>
+        <alias>MCR03ERTF1003</alias>
+        <alias>MCR03ERTF5600</alias>
+        <alias>MCR03ERTF1501</alias>
+        <alias>MCR03ERTF2001</alias>
+        <alias>MCR03ERTF1502</alias>
+        <alias>MCR03ERTF3901</alias>
+        <alias>MCR03ERTF4223</alias>
+        <alias>MCR03ERTF2702</alias>
+        <alias>MCR03ERTF4702</alias>
+        <alias>MCR03ERTF3923</alias>
+        <alias>MCR03ERTF1001</alias>
+      </aliases>
+      <description>MCR03ERTF</description>
+      <docs>http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf</docs>
+      <footprints>
+        <fp>MCR03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">MCR03ERTF</field>
+        <field name="Footprint">1608</field>
+        <field name="Datasheet">http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rohm" part="MCR03ERTJ">
+      <aliases>
+        <alias>MCR03ERTJ203</alias>
+        <alias>MCR03ERTJ183</alias>
+        <alias>MCR03ERTJ223</alias>
+        <alias>MCR03EZPJ000</alias>
+      </aliases>
+      <description>MCR03ERTJ</description>
+      <docs>http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</docs>
+      <footprints>
+        <fp>MCR03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">MCR03ERTJ</field>
+        <field name="Footprint">1608</field>
+        <field name="Datasheet">http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rohm" part="RB161M-20">
+      <description>DIODE SCHOTTKY 20V 1A PMDU</description>
+      <docs>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb161m-20.pdf</docs>
+      <footprints>
+        <fp>PMDU</fp>
+        <fp>SOD-123F</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">RB161M-20</field>
+        <field name="Footprint">rohm:PMDU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="taiwanalpha" part="RV141F-40E3-(L)BL">
+      <aliases>
+        <alias>RV141F-40E3-18BL-B100K</alias>
+        <alias>RV141F-40E3-18BL-A500K</alias>
+        <alias>RV141F-40E3-18BL-A100K</alias>
+      </aliases>
+      <description>VR 14mm snap-in transparent  shaft</description>
+      <docs>http://www.taiwanalpha.com.tw/english2014/p_e_032.htm</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RV141F-40E3-(L)BL</field>
+        <field name="Datasheet">http://www.taiwanalpha.com.tw/english2014/p_e_032.htm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="intersil" part="ICL7660SIBAZ">
+      <description> a monolithic CMOS switched-capacitor voltage converter</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7660s-a.pdf</docs>
+      <footprints>
+        <fp>S8*</fp>
+        <fp>DIP8*</fp>
+        <fp>DIL8*</fp>
+        <fp>DIP-8*</fp>
+        <fp>DIL-8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICL7660SIBAZ</field>
+        <field name="Footprint">SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="input"/>
+        <pin num="2" name="CAP+" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CAP-" type="power_out"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="OSC" type="input"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="marushin-musen" part="MJ-179SMT">
+      <footprints>
+        <fp>MJ-179SMT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MJ-179SMT</field>
+        <field name="Footprint">MJ-179SMT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_out"/>
+        <pin num="3" name="3" type="power_out"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="toshiba" part="SSM3J328R">
+      <description>MOSFET P-Channel, Metal Oxide</description>
+      <docs>http://www.semicon.toshiba.co.jp/info/docget.jsp?type=datasheet&amp;lang=en&amp;pid=SSM3J328R</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SSM3J328R</field>
+        <field name="Footprint">SOT-23F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="openEm"/>
+        <pin num="3" name="D" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="murata" part="GRM18">
+      <aliases>
+        <alias>GRM188R60J106ME47J</alias>
+        <alias>GRM188R61E106MA73D</alias>
+      </aliases>
+      <description>Murata GRM18 Series</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</docs>
+      <footprints>
+        <fp>GRM18*</fp>
+        <fp>C_1608</fp>
+        <fp>C_1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM18</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</field>
+        <field name="Size">1608</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="murata" part="GRM21">
+      <aliases>
+        <alias>GRM21A5C2E100JW01D</alias>
+        <alias>GRM21BR61C475KA88L</alias>
+      </aliases>
+      <description>Murata GRM21 Series</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</docs>
+      <footprints>
+        <fp>GRM21*</fp>
+        <fp>C_0805</fp>
+        <fp>C_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM21</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</field>
+        <field name="Size">2012</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="murata" part="GRM31">
+      <aliases>
+        <alias>GRM31M5C1H473JA01L</alias>
+        <alias>GRM31C5C1E104JA01L</alias>
+      </aliases>
+      <description>Murata GRM31 Series</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</docs>
+      <footprints>
+        <fp>GRM31*</fp>
+        <fp>C_1206</fp>
+        <fp>C_1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM31</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</field>
+        <field name="Size">3216</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hgtlight" part="OSXX1608C1A">
+      <aliases>
+        <alias>OSTG1608C1A</alias>
+        <alias>OSWT1608C1A</alias>
+      </aliases>
+      <description>1.6x0.8x0.4mm SMD Single Chip LED</description>
+      <docs>http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_VerA2.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">OSXX1608C1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Panasonic" part="EEE-Bipolar">
+      <aliases>
+        <alias>EEE1EA3R3NR</alias>
+      </aliases>
+      <description>Panasonic Surface Mount Type, Series: S, Type: V</description>
+      <docs>http://industrial.panasonic.com/lecs/www-data/pdf/ABA0000/ABA0000CE2.pdf</docs>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEE-Bipolar</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CLIFF" part="FC71101">
+      <description>3PDT Switch Wire Soldering</description>
+      <docs>http://www.cliffuk.co.uk/products/switches/SingleSwitches.pdf</docs>
+      <footprints>
+        <fp>FC71101</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">FC71101</field>
+        <field name="Footprint">CLIFF:FC71101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jst" part="B3B-EH-A">
+      <description>CONN HEADER EH TOP 3POS 2.5MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/eng/eEH.pdf</docs>
+      <footprints>
+        <fp>B3B-EH-A</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">B3B-EH-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jst" part="B9B-EH-A">
+      <description>CONN HEADER EH TOP 9POS 2.5MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/jpn/EH.pdf</docs>
+      <footprints>
+        <fp>B9B-EH-A</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">B9B-EH-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Software\CAD\kicad\kicad-winbuilder-3.4-3\kicad\share\library\conn.lib</uri>
+    </library>
+    <library logical="neutrik">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\neutrik.lib</uri>
+    </library>
+    <library logical="fairchild">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\fairchild.lib</uri>
+    </library>
+    <library logical="rohm">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\rohm.lib</uri>
+    </library>
+    <library logical="taiwanalpha">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\taiwanalpha.lib</uri>
+    </library>
+    <library logical="intersil">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\intersil.lib</uri>
+    </library>
+    <library logical="marushin-musen">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\marushin-musen.lib</uri>
+    </library>
+    <library logical="toshiba">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\toshiba.lib</uri>
+    </library>
+    <library logical="murata">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\murata.lib</uri>
+    </library>
+    <library logical="hgtlight">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\hgtlight.lib</uri>
+    </library>
+    <library logical="Panasonic">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\Panasonic.lib</uri>
+    </library>
+    <library logical="CLIFF">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\CLIFF.lib</uri>
+    </library>
+    <library logical="jst">
+      <uri>E:\Dropbox\dev\prj\kicad-library\library\jst.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R106-Pad2)">
+      <node ref="R106" pin="2"/>
+      <node ref="R108" pin="3"/>
+      <node ref="R109" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R108-Pad2)">
+      <node ref="R110" pin="2"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C101-Pad2)">
+      <node ref="R101" pin="2"/>
+      <node ref="C101" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D105-Pad2)">
+      <node ref="R113" pin="2"/>
+      <node ref="D105" pin="2"/>
+    </net>
+    <net code="5" name="/A-18V">
+      <node ref="R105" pin="1"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R107" pin="1"/>
+      <node ref="C104" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="D104" pin="1"/>
+      <node ref="C111" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C102-Pad1)">
+      <node ref="C109" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="7" name="Net-(P104-Pad1)">
+      <node ref="R112" pin="2"/>
+      <node ref="P104" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J103-PadT)">
+      <node ref="J103" pin="T"/>
+      <node ref="P104" pin="2"/>
+    </net>
+    <net code="9" name="Net-(P102-Pad3)">
+      <node ref="P104" pin="3"/>
+      <node ref="P102" pin="3"/>
+    </net>
+    <net code="10" name="Net-(U101-Pad6)">
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="11" name="Net-(U101-Pad7)">
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="12" name="Net-(J103-PadSN)">
+      <node ref="J103" pin="SN"/>
+    </net>
+    <net code="13" name="Net-(J103-PadTN)">
+      <node ref="J103" pin="TN"/>
+    </net>
+    <net code="14" name="Net-(J101-PadSN)">
+      <node ref="J101" pin="SN"/>
+    </net>
+    <net code="15" name="Net-(J101-PadTN)">
+      <node ref="J101" pin="TN"/>
+    </net>
+    <net code="16" name="/AGND">
+      <node ref="C107" pin="2"/>
+      <node ref="C111" pin="2"/>
+      <node ref="P101" pin="1"/>
+      <node ref="J103" pin="S"/>
+      <node ref="J101" pin="S"/>
+      <node ref="J102" pin="3"/>
+      <node ref="J102" pin="4"/>
+      <node ref="Q101" pin="1"/>
+      <node ref="D106" pin="1"/>
+      <node ref="D107" pin="1"/>
+      <node ref="D105" pin="1"/>
+      <node ref="R111" pin="2"/>
+      <node ref="R101" pin="1"/>
+      <node ref="P105" pin="3"/>
+      <node ref="R112" pin="1"/>
+      <node ref="U101" pin="3"/>
+      <node ref="C112" pin="2"/>
+      <node ref="C113" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D107-Pad2)">
+      <node ref="R115" pin="2"/>
+      <node ref="D107" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D106-Pad2)">
+      <node ref="R114" pin="2"/>
+      <node ref="D106" pin="2"/>
+    </net>
+    <net code="19" name="Net-(P103-Pad6)">
+      <node ref="P103" pin="6"/>
+      <node ref="SW101" pin="6"/>
+    </net>
+    <net code="20" name="Net-(P103-Pad2)">
+      <node ref="SW101" pin="2"/>
+      <node ref="P103" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J101-PadT)">
+      <node ref="J101" pin="T"/>
+      <node ref="P102" pin="2"/>
+    </net>
+    <net code="22" name="Net-(P105-Pad2)">
+      <node ref="R113" pin="1"/>
+      <node ref="P105" pin="2"/>
+      <node ref="R115" pin="1"/>
+      <node ref="R114" pin="1"/>
+    </net>
+    <net code="23" name="Net-(P103-Pad8)">
+      <node ref="P103" pin="8"/>
+      <node ref="SW101" pin="8"/>
+    </net>
+    <net code="24" name="Net-(P103-Pad3)">
+      <node ref="SW101" pin="3"/>
+      <node ref="P103" pin="3"/>
+    </net>
+    <net code="25" name="Net-(P103-Pad1)">
+      <node ref="SW101" pin="1"/>
+      <node ref="P103" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P103-Pad9)">
+      <node ref="SW101" pin="9"/>
+      <node ref="P103" pin="9"/>
+    </net>
+    <net code="27" name="Net-(P103-Pad5)">
+      <node ref="P103" pin="5"/>
+      <node ref="SW101" pin="5"/>
+    </net>
+    <net code="28" name="Net-(P103-Pad4)">
+      <node ref="SW101" pin="4"/>
+      <node ref="P103" pin="4"/>
+    </net>
+    <net code="29" name="Net-(P103-Pad7)">
+      <node ref="P103" pin="7"/>
+      <node ref="SW101" pin="7"/>
+    </net>
+    <net code="30" name="Net-(P102-Pad1)">
+      <node ref="R101" pin="3"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C101-Pad1)">
+      <node ref="Q103" pin="3"/>
+      <node ref="R104" pin="2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="32" name="/A+18V">
+      <node ref="C112" pin="1"/>
+      <node ref="R102" pin="2"/>
+      <node ref="Q102" pin="1"/>
+      <node ref="D103" pin="2"/>
+    </net>
+    <net code="33" name="Net-(C103-Pad1)">
+      <node ref="R103" pin="2"/>
+      <node ref="R102" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="Q102" pin="3"/>
+    </net>
+    <net code="34" name="Net-(C108-Pad2)">
+      <node ref="C108" pin="2"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="35" name="Net-(C102-Pad2)">
+      <node ref="U101" pin="4"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C110" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C110-Pad1)">
+      <node ref="D102" pin="1"/>
+      <node ref="D104" pin="2"/>
+      <node ref="C110" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J102-Pad2)">
+      <node ref="P101" pin="2"/>
+      <node ref="J102" pin="2"/>
+    </net>
+    <net code="38" name="/DC_IN">
+      <node ref="J102" pin="1"/>
+      <node ref="Q101" pin="3"/>
+    </net>
+    <net code="39" name="/A+9V">
+      <node ref="U101" pin="8"/>
+      <node ref="P105" pin="1"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="U101" pin="1"/>
+      <node ref="C113" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R107-Pad2)">
+      <node ref="R107" pin="2"/>
+      <node ref="R110" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="R108" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q103-Pad2)">
+      <node ref="R105" pin="2"/>
+      <node ref="R106" pin="1"/>
+      <node ref="Q103" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C105-Pad1)">
+      <node ref="R112" pin="3"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C105" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C103-Pad2)">
+      <node ref="C103" pin="2"/>
+      <node ref="Q103" pin="1"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="Q102" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C109-Pad2)">
+      <node ref="D103" pin="1"/>
+      <node ref="C109" pin="2"/>
+      <node ref="D101" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C107-Pad1)">
+      <node ref="C107" pin="1"/>
+      <node ref="U101" pin="5"/>
+      <node ref="D102" pin="2"/>
+    </net>
+  </nets>
+</export>

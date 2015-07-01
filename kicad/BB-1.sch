@@ -1,0 +1,1076 @@
+EESchema Schematic File Version 2
+LIBS:BB-1-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:neutrik
+LIBS:on_semiconductor
+LIBS:fairchild
+LIBS:alps
+LIBS:rohm
+LIBS:taiwanalpha
+LIBS:nichicon
+LIBS:linear_technology
+LIBS:intersil
+LIBS:united_au-vi
+LIBS:accurate_innotech
+LIBS:marushin-musen
+LIBS:toshiba
+LIBS:murata
+LIBS:hgtlight
+LIBS:Panasonic
+LIBS:fujisoku
+LIBS:CLIFF
+LIBS:jst
+LIBS:BB-1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NMJ4HCD2 J101
+U 1 1 558221B5
+P 3200 4350
+F 0 "J101" H 3000 4200 60  0000 C CNN
+F 1 "NMJ4HCD2" H 3200 4100 60  0000 C CNN
+F 2 "neutric:NMJ4HCD2" H 3100 4250 60  0001 C CNN
+F 3 "" H 3200 4350 60  0000 C CNN
+	1    3200 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L MMBF5457 Q103
+U 1 1 558225E0
+P 6550 4750
+F 0 "Q103" H 6750 4825 50  0000 L CNN
+F 1 "MMBF5457" H 6750 4750 50  0000 L CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering" H 6750 4675 50  0000 L CIN
+F 3 "" H 6550 4700 50  0000 L CNN
+	1    6550 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L NMJ4HCD2 J103
+U 1 1 55823502
+P 9200 5100
+F 0 "J103" H 9000 4950 60  0000 C CNN
+F 1 "NMJ4HCD2" H 9200 4850 60  0000 C CNN
+F 2 "neutric:NMJ4HCD2" H 9100 5000 60  0001 C CNN
+F 3 "" H 9200 5100 60  0000 C CNN
+	1    9200 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L MMBF5457 Q102
+U 1 1 55823581
+P 6550 3850
+F 0 "Q102" H 6750 3925 50  0000 L CNN
+F 1 "MMBF5457" H 6750 3850 50  0000 L CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering" H 6750 3775 50  0000 L CIN
+F 3 "" H 6550 3800 50  0000 L CNN
+	1    6550 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L MJ-179SMT J102
+U 1 1 558392D9
+P 3650 8400
+F 0 "J102" H 3650 8750 60  0000 C CNN
+F 1 "MJ-179SMT" H 3650 8650 60  0000 C CNN
+F 2 "marushin-musen:MJ-179SMT" H 3650 8400 60  0001 C CNN
+F 3 "" H 3650 8400 60  0000 C CNN
+	1    3650 8400
+	1    0    0    1   
+$EndComp
+$Comp
+L SSM3J328R Q101
+U 1 1 5583999A
+P 5350 8400
+F 0 "Q101" V 5750 8800 50  0000 R CNN
+F 1 "SSM3J328R" V 5650 8800 50  0000 R CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering" H 5690 8290 29  0001 C CNN
+F 3 "" H 5650 8450 60  0000 C CNN
+	1    5350 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RB161M-20 D101
+U 1 1 55839D43
+P 8050 8300
+F 0 "D101" H 7750 8500 50  0000 L CNN
+F 1 "RB161M-20" H 7850 8400 50  0000 C CNN
+F 2 "rohm:PMDU" H 8050 8300 50  0001 C CNN
+F 3 "" H 8000 8380 60  0000 C CNN
+	1    8050 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RB161M-20 D103
+U 1 1 55839D94
+P 8700 8300
+F 0 "D103" H 8650 8380 50  0000 L CNN
+F 1 "RB161M-20" H 8700 8225 50  0000 C CNN
+F 2 "rohm:PMDU" H 8700 8300 50  0001 C CNN
+F 3 "" H 8650 8380 60  0000 C CNN
+	1    8700 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RB161M-20 D102
+U 1 1 55839DCC
+P 8050 8600
+F 0 "D102" H 8000 8680 50  0000 L CNN
+F 1 "RB161M-20" H 8050 8525 50  0000 C CNN
+F 2 "rohm:PMDU" H 8050 8600 50  0001 C CNN
+F 3 "" H 8000 8680 60  0000 C CNN
+	1    8050 8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L RB161M-20 D104
+U 1 1 55839E18
+P 8700 8600
+F 0 "D104" H 8650 8680 50  0000 L CNN
+F 1 "RB161M-20" H 8700 8525 50  0000 C CNN
+F 2 "rohm:PMDU" H 8700 8600 50  0001 C CNN
+F 3 "" H 8650 8680 60  0000 C CNN
+	1    8700 8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCR03ERTF1004 R103
+U 1 1 5585556C
+P 5750 4300
+F 0 "R103" V 5825 4300 50  0000 C CNN
+F 1 "MCR03ERTF1004" V 5900 4300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5690 4300 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 5830 4300 30  0001 C CNN
+F 4 "1M" V 5900 4300 50  0000 C CNN "Value"
+	1    5750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM21A5C2E100JW01D C104
+U 1 1 558564BA
+P 6200 5700
+F 0 "C104" V 6325 5700 50  0000 C CNN
+F 1 "GRM21A5C2E100JW01D" V 6400 5700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6238 5550 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6250 5800 60  0001 C CNN
+F 4 "2012" H 6200 5700 10  0000 C CNN "Size"
+F 5 "10p" V 6400 5700 50  0000 C CNN "Value"
+	1    6200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCR03ERTF1001 R105
+U 1 1 55856643
+P 6650 5700
+F 0 "R105" V 6725 5700 50  0000 C CNN
+F 1 "MCR03ERTF1001" V 6800 5700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6590 5700 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 6730 5700 30  0001 C CNN
+F 4 "1k" V 6800 5700 50  0000 C CNN "Value"
+	1    6650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM31C5C1E104JA01L C106
+U 1 1 558567A8
+P 7300 4300
+F 0 "C106" V 7400 4300 50  0000 C CNN
+F 1 "GRM31C5C1E104JA01L" V 7475 4300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7338 4150 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7350 4400 60  0001 C CNN
+F 4 "3216" H 7300 4300 10  0000 C CNN "Size"
+F 5 "0.1u" V 7500 4300 50  0000 C CNN "Value"
+	1    7300 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L GRM31M5C1H473JA01L C108
+U 1 1 55856CC8
+P 7850 4750
+F 0 "C108" V 7975 4750 50  0000 C CNN
+F 1 "GRM31M5C1H473JA01L" V 8050 4750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7888 4600 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7900 4850 60  0001 C CNN
+F 4 "3216" H 7850 4750 10  0000 C CNN "Size"
+F 5 "0.047u" V 8050 4750 50  0000 C CNN "Value"
+	1    7850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCR03ERTF R106
+U 1 1 5585707E
+P 6900 5150
+F 0 "R106" V 6975 5150 50  0000 C CNN
+F 1 "MCR03ERTF" V 7050 5150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6840 5150 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 6980 5150 30  0001 C CNN
+F 4 "OPEN" V 7050 5150 50  0000 C CNN "Value"
+	1    6900 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L MCR03ERTF R107
+U 1 1 558577FD
+P 6900 6200
+F 0 "R107" V 6975 6200 50  0000 C CNN
+F 1 "MCR03ERTF" V 7050 6200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6840 6200 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 6980 6200 30  0001 C CNN
+F 4 "OPEN" V 7050 6200 50  0000 C CNN "Value"
+	1    6900 6200
+	0    1    1    0   
+$EndComp
+Text Label 3450 4450 0    60   ~ 0
+AGND
+$Comp
+L GRM188R60J106ME47J C107
+U 1 1 55858553
+P 7600 8750
+F 0 "C107" V 7400 8750 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 7500 8350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7600 8750 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7650 8850 60  0001 C CNN
+F 4 "1608" H 7600 8750 10  0000 C CNN "Size"
+F 5 "10u" V 7500 8750 50  0000 C CNN "Value"
+	1    7600 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4300 8450 4800
+Wire Wire Line
+	7350 4300 8450 4300
+Connection ~ 6650 4300
+Wire Wire Line
+	6650 4300 7250 4300
+Wire Wire Line
+	8450 5000 8450 6550
+Wire Wire Line
+	8450 5200 9050 5200
+Wire Wire Line
+	6650 4050 6650 4550
+Wire Wire Line
+	4050 8500 4950 8500
+Wire Wire Line
+	4950 8500 4950 8700
+Wire Wire Line
+	4950 8600 4050 8600
+Wire Wire Line
+	4050 8300 5150 8300
+Wire Wire Line
+	5350 8700 5350 8600
+Wire Wire Line
+	4400 8700 6150 8700
+Connection ~ 4950 8600
+Wire Wire Line
+	5550 8300 6200 8300
+Wire Wire Line
+	6150 7250 11100 7250
+Wire Wire Line
+	6150 7200 6150 8300
+Wire Wire Line
+	6150 7900 7450 7900
+Wire Wire Line
+	7450 7900 7450 8300
+Wire Wire Line
+	7400 8300 7950 8300
+Connection ~ 6150 8300
+Wire Wire Line
+	6200 8500 6150 8500
+Wire Wire Line
+	6150 8500 6150 9100
+Connection ~ 5350 8700
+Wire Wire Line
+	5750 3500 5750 4200
+Wire Wire Line
+	5750 3850 6350 3850
+Connection ~ 5750 3850
+Wire Wire Line
+	5750 3300 5750 3000
+Wire Wire Line
+	5750 3000 10700 3000
+Wire Wire Line
+	6650 3000 6650 3650
+Wire Wire Line
+	5500 4750 6350 4750
+Wire Wire Line
+	5950 5600 5950 4750
+Connection ~ 5950 4750
+Wire Wire Line
+	6200 5650 6200 4750
+Connection ~ 6200 4750
+Wire Wire Line
+	6200 6200 6200 5750
+Wire Wire Line
+	5750 6200 6800 6200
+Wire Wire Line
+	5950 6200 5950 5800
+Wire Wire Line
+	6650 4950 6650 5600
+Wire Wire Line
+	6650 5800 6650 6700
+Connection ~ 6200 6200
+Wire Wire Line
+	7350 4200 7500 4200
+Wire Wire Line
+	7500 4200 7500 4300
+Connection ~ 7500 4300
+Wire Wire Line
+	7250 4200 6650 4200
+Connection ~ 6650 4200
+Wire Wire Line
+	7850 4700 7850 4300
+Connection ~ 7850 4300
+Connection ~ 5950 6200
+Wire Wire Line
+	5750 6200 5750 4400
+Wire Wire Line
+	6650 5150 6800 5150
+Connection ~ 6650 5150
+Wire Wire Line
+	7700 5150 7850 5150
+Wire Wire Line
+	7850 5150 7850 4800
+Wire Wire Line
+	7350 5500 7350 5150
+Wire Wire Line
+	7000 5150 7500 5150
+Connection ~ 7350 5150
+Wire Wire Line
+	7600 5700 7600 5600
+Wire Wire Line
+	7600 5600 7450 5600
+Wire Wire Line
+	7600 6000 7350 6000
+Wire Wire Line
+	7350 5700 7350 6200
+Connection ~ 6650 6200
+Wire Wire Line
+	7000 6200 7500 6200
+Connection ~ 7350 6000
+Connection ~ 7350 6200
+Wire Wire Line
+	8450 6200 7700 6200
+Connection ~ 8450 5200
+Wire Wire Line
+	11350 6550 4600 6550
+Wire Wire Line
+	5000 6550 5000 4850
+Connection ~ 8450 6200
+Wire Wire Line
+	5100 4750 5400 4750
+Wire Wire Line
+	5000 2000 5000 4650
+Wire Wire Line
+	3350 4450 4600 4450
+Wire Wire Line
+	4600 4450 4600 6550
+Connection ~ 5000 6550
+Wire Wire Line
+	6000 7700 6000 8450
+Wire Wire Line
+	6000 8400 6200 8400
+Wire Wire Line
+	6000 8550 6000 8950
+Wire Wire Line
+	6000 8600 6200 8600
+Wire Wire Line
+	7600 8700 7600 8600
+Wire Wire Line
+	7400 8600 7950 8600
+Connection ~ 7600 8600
+Connection ~ 7450 8300
+Wire Wire Line
+	8150 8300 8600 8300
+Wire Wire Line
+	8150 8600 8600 8600
+Wire Wire Line
+	8350 8200 8350 8300
+Connection ~ 8350 8300
+Wire Wire Line
+	8350 8700 8350 8600
+Connection ~ 8350 8600
+Wire Wire Line
+	7600 8800 7600 9100
+Wire Wire Line
+	6150 9100 10900 9100
+Connection ~ 6150 8700
+Wire Wire Line
+	8350 8800 8350 8950
+Wire Wire Line
+	8350 8950 6000 8950
+Connection ~ 6000 8600
+Wire Wire Line
+	6000 7700 8350 7700
+Wire Wire Line
+	8350 7700 8350 8100
+Connection ~ 6000 8400
+Wire Wire Line
+	8950 8700 8950 8600
+Wire Wire Line
+	8800 8600 10800 8600
+Wire Wire Line
+	8800 8300 10700 8300
+Wire Wire Line
+	9300 8300 9300 8700
+Wire Wire Line
+	9300 9100 9300 8800
+Connection ~ 7600 9100
+Wire Wire Line
+	8950 8800 8950 9100
+Connection ~ 8950 9100
+Connection ~ 8950 8600
+Connection ~ 9300 8300
+Text Label 9550 8300 0    60   ~ 0
+A+18V
+Text Label 9550 8600 0    60   ~ 0
+A-18V
+Text Label 5050 8700 0    60   ~ 0
+AGND
+Text Label 5650 8300 0    60   ~ 0
+A+9V
+Text Label 4250 8300 0    60   ~ 0
+DC_IN
+Wire Wire Line
+	10900 9100 10900 6550
+Connection ~ 8450 6550
+Connection ~ 9300 9100
+Wire Wire Line
+	10700 8300 10700 3000
+Connection ~ 6650 3000
+Wire Wire Line
+	6650 6700 10800 6700
+Wire Wire Line
+	10800 6700 10800 8600
+Wire Wire Line
+	4050 8400 4300 8400
+Wire Wire Line
+	4300 8400 4300 9550
+Wire Wire Line
+	4400 8700 4400 9550
+Connection ~ 4950 8700
+$Comp
+L CONN_01X02 P101
+U 1 1 55859FC0
+P 4350 9750
+F 0 "P101" H 4350 9900 50  0000 C CNN
+F 1 "CONN_01X02" V 4450 9750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4350 9750 60  0001 C CNN
+F 3 "" H 4350 9750 60  0000 C CNN
+	1    4350 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4350 4600 4350
+Wire Wire Line
+	4600 4350 4600 1850
+Wire Wire Line
+	4600 1850 6700 1850
+Wire Wire Line
+	6700 1850 6700 1600
+Wire Wire Line
+	6600 1600 6600 2000
+Wire Wire Line
+	6600 2000 5000 2000
+Wire Wire Line
+	6800 1600 6800 2000
+Wire Wire Line
+	6800 2000 7300 2000
+Wire Wire Line
+	7300 2000 7300 1600
+Wire Wire Line
+	7200 1600 7200 1850
+Wire Wire Line
+	7200 1850 8950 1850
+Wire Wire Line
+	8950 1850 8950 5100
+Wire Wire Line
+	8950 5100 9050 5100
+Wire Wire Line
+	8550 4900 8650 4900
+Wire Wire Line
+	8650 4900 8650 2300
+Wire Wire Line
+	8650 2300 7100 2300
+Wire Wire Line
+	7100 2300 7100 1600
+Wire Wire Line
+	7700 1600 7700 2000
+Wire Wire Line
+	7700 2000 9800 2000
+Wire Wire Line
+	7600 1600 7600 2850
+Wire Wire Line
+	7600 2850 11100 2850
+Wire Wire Line
+	11100 2850 11100 7250
+Connection ~ 6150 7900
+Wire Wire Line
+	7800 1600 7800 2700
+Wire Wire Line
+	7800 2700 11350 2700
+Wire Wire Line
+	11350 1400 11350 6550
+Connection ~ 10900 6550
+$Comp
+L OSWT1608C1A D105
+U 1 1 5585B83D
+P 10550 2000
+F 0 "D105" H 10550 2080 50  0000 C CNN
+F 1 "OSWT1608C1A" H 10550 1910 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10450 2000 60  0001 C CNN
+F 3 "" H 10550 2100 60  0000 C CNN
+	1    10550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2000 10000 2000
+Wire Wire Line
+	10750 2000 11350 2000
+Connection ~ 11350 2700
+Text Label 8550 5200 0    60   ~ 0
+AGND
+NoConn ~ 3350 4300
+NoConn ~ 3350 4400
+NoConn ~ 9050 5050
+NoConn ~ 9050 5150
+NoConn ~ 7400 8400
+NoConn ~ 7400 8500
+$Comp
+L PWR_FLAG #FLG101
+U 1 1 5585CA4A
+P 6150 7200
+F 0 "#FLG101" H 6150 7295 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 7380 50  0000 C CNN
+F 2 "" H 6150 7200 60  0000 C CNN
+F 3 "" H 6150 7200 60  0000 C CNN
+	1    6150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG102
+U 1 1 5585CB1A
+P 10050 8250
+F 0 "#FLG102" H 10050 8345 50  0001 C CNN
+F 1 "PWR_FLAG" H 10050 8430 50  0000 C CNN
+F 2 "" H 10050 8250 60  0000 C CNN
+F 3 "" H 10050 8250 60  0000 C CNN
+	1    10050 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG103
+U 1 1 5585CB97
+P 10050 8550
+F 0 "#FLG103" H 10050 8645 50  0001 C CNN
+F 1 "PWR_FLAG" H 10050 8730 50  0000 C CNN
+F 2 "" H 10050 8550 60  0000 C CNN
+F 3 "" H 10050 8550 60  0000 C CNN
+	1    10050 8550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 7250
+Connection ~ 10050 8300
+Connection ~ 10050 8600
+Wire Wire Line
+	10050 8250 10050 8300
+Wire Wire Line
+	10050 8550 10050 8600
+Wire Wire Line
+	6050 4000 6050 3850
+Connection ~ 6050 3850
+Wire Wire Line
+	6050 4200 6050 4400
+Wire Wire Line
+	6050 4400 6650 4400
+Connection ~ 6650 4400
+$Comp
+L RV141F-40E3-18BL-B100K R108
+U 1 1 55875FEE
+P 7350 5600
+F 0 "R108" V 7175 5600 50  0000 C CNN
+F 1 "RV141F-40E3-18BL-B100K" V 7250 5600 50  0001 C CNN
+F 2 "taiwanalpha:RV141F-40E3" V 7280 5600 30  0001 C CNN
+F 3 "http://www.taiwanalpha.com.tw/english2014/p_e_032.htm" V 7430 5600 30  0001 C CNN
+F 4 "100kB" V 7250 5600 50  0000 C CNN "Value"
+	1    7350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RV141F-40E3-18BL-A100K R112
+U 1 1 55876497
+P 8450 4900
+F 0 "R112" V 8275 4900 50  0000 C CNN
+F 1 "RV141F-40E3-18BL-A100K" V 8350 4900 50  0001 C CNN
+F 2 "taiwanalpha:RV141F-40E3" V 8380 4900 30  0001 C CNN
+F 3 "http://www.taiwanalpha.com.tw/english2014/p_e_032.htm" V 8530 4900 30  0001 C CNN
+F 4 "100kA" V 8350 4900 50  0000 C CNN "Value"
+	1    8450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RV141F-40E3-18BL-A500K R101
+U 1 1 55876527
+P 5000 4750
+F 0 "R101" V 4825 4750 50  0000 C CNN
+F 1 "RV141F-40E3-18BL-A500K" V 4900 4750 50  0001 C CNN
+F 2 "taiwanalpha:RV141F-40E3" V 4930 4750 30  0001 C CNN
+F 3 "http://www.taiwanalpha.com.tw/english2014/p_e_032.htm" V 5080 4750 30  0001 C CNN
+F 4 "500kA" V 4900 4750 50  0000 C CNN "Value"
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCR03EZPJ000 R109
+U 1 1 55877079
+P 7600 5150
+F 0 "R109" V 7675 5150 50  0000 C CNN
+F 1 "MCR03EZPJ000" V 7725 5150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7540 5150 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 7680 5150 30  0001 C CNN
+F 4 "0" V 7750 5150 50  0000 C CNN "Value"
+	1    7600 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L MCR03EZPJ000 R111
+U 1 1 55877387
+P 7600 6200
+F 0 "R111" V 7675 6200 50  0000 C CNN
+F 1 "MCR03EZPJ000" V 7725 6200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7540 6200 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 7680 6200 30  0001 C CNN
+F 4 "0" V 7750 6200 50  0000 C CNN "Value"
+	1    7600 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L MCR03EZPJ000 R110
+U 1 1 55877450
+P 7600 5800
+F 0 "R110" V 7675 5800 50  0000 C CNN
+F 1 "MCR03EZPJ000" V 7725 5800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7540 5800 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 7680 5800 30  0001 C CNN
+F 4 "0" V 7750 5800 50  0000 C CNN "Value"
+	1    7600 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5900 7600 6000
+$Comp
+L GRM188R60J106ME47J C110
+U 1 1 55877A13
+P 8350 8750
+F 0 "C110" V 8150 8750 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 8250 8350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8350 8750 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 8400 8850 60  0001 C CNN
+F 4 "1608" H 8350 8750 10  0000 C CNN "Size"
+F 5 "10u" V 8250 8750 50  0000 C CNN "Value"
+	1    8350 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM188R60J106ME47J C111
+U 1 1 55877AB2
+P 8950 8750
+F 0 "C111" V 8750 8750 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 8850 8350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8950 8750 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9000 8850 60  0001 C CNN
+F 4 "1608" H 8950 8750 10  0000 C CNN "Size"
+F 5 "10u" V 8850 8750 50  0000 C CNN "Value"
+	1    8950 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM188R60J106ME47J C112
+U 1 1 55877B52
+P 9300 8750
+F 0 "C112" V 9100 8750 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 9200 8350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9300 8750 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9350 8850 60  0001 C CNN
+F 4 "1608" H 9300 8750 10  0000 C CNN "Size"
+F 5 "10u" V 9200 8750 50  0000 C CNN "Value"
+	1    9300 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM188R60J106ME47J C109
+U 1 1 55877C14
+P 8350 8150
+F 0 "C109" V 8150 8150 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 8250 7750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8350 8150 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 8400 8250 60  0001 C CNN
+F 4 "1608" H 8350 8150 10  0000 C CNN "Size"
+F 5 "10u" V 8250 8150 50  0000 C CNN "Value"
+	1    8350 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM188R60J106ME47J C102
+U 1 1 55877DF1
+P 6000 8500
+F 0 "C102" V 5800 8500 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 5900 8100 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6000 8500 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6050 8600 60  0001 C CNN
+F 4 "1608" H 6000 8500 10  0000 C CNN "Size"
+F 5 "10u" V 5900 8500 50  0000 C CNN "Value"
+	1    6000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM31C5C1E104JA01L C105
+U 1 1 55878391
+P 7300 4200
+F 0 "C105" V 7100 4200 50  0000 C CNN
+F 1 "GRM31C5C1E104JA01L" V 7475 4200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7338 4050 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7350 4300 60  0001 C CNN
+F 4 "3216" H 7300 4200 10  0000 C CNN "Size"
+F 5 "0.1u" V 7200 4200 50  0000 C CNN "Value"
+	1    7300 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L EEE1EA3R3NR C103
+U 1 1 558786E8
+P 6050 4100
+F 0 "C103" H 6150 4200 50  0000 L CNN
+F 1 "EEE1EA3R3NR" H 6060 4020 50  0001 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 6050 4100 60  0001 C CNN
+F 3 "" H 6050 4100 60  0000 C CNN
+F 4 "3.3u/25(NP)" H 6300 4100 50  0000 C CNN "Value"
+	1    6050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GRM31M5C1H473JA01L C101
+U 1 1 55878CC2
+P 5450 4750
+F 0 "C101" V 5575 4750 50  0000 C CNN
+F 1 "GRM31M5C1H473JA01L" V 5650 4750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 4600 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5500 4850 60  0001 C CNN
+F 4 "3216" H 5450 4750 10  0000 C CNN "Size"
+F 5 "0.047u" V 5650 4750 50  0000 C CNN "Value"
+	1    5450 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L MCR03ERTF1004 R102
+U 1 1 55878F1E
+P 5750 3400
+F 0 "R102" V 5825 3400 50  0000 C CNN
+F 1 "MCR03ERTF1004" V 5900 3400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5690 3400 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 5830 3400 30  0001 C CNN
+F 4 "1M" V 5900 3400 50  0000 C CNN "Value"
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCR03ERTF1004 R104
+U 1 1 55878FED
+P 5950 5700
+F 0 "R104" V 6025 5700 50  0000 C CNN
+F 1 "MCR03ERTF1004" V 6100 5700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5890 5700 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 6030 5700 30  0001 C CNN
+F 4 "1M" V 6100 5700 50  0000 C CNN "Value"
+	1    5950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCR03ERTF1001 R113
+U 1 1 55879546
+P 9900 2000
+F 0 "R113" V 9975 2000 50  0000 C CNN
+F 1 "MCR03ERTF1001" V 10050 2000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9840 2000 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 9980 2000 30  0001 C CNN
+F 4 "1k" V 10050 2000 50  0000 C CNN "Value"
+	1    9900 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L ICL7660SIBAZ U101
+U 1 1 5587B26A
+P 6800 8450
+F 0 "U101" H 6800 8850 50  0000 C CNN
+F 1 "ICL7660SIBAZ" H 6800 8750 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6800 8650 50  0001 C CNN
+F 3 "" H 6800 8250 50  0001 C CNN
+	1    6800 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L FC71101 SW101
+U 1 1 558E06EE
+P 13350 2150
+F 0 "SW101" H 13150 2300 50  0000 C CNN
+F 1 "FC71101" H 13200 2000 50  0000 C CNN
+F 2 "CLIFF:FC71101" H 13350 2150 60  0001 C CNN
+F 3 "" H 13350 2150 60  0000 C CNN
+	1    13350 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L FC71101 SW101
+U 2 1 558E086E
+P 13650 3050
+F 0 "SW101" H 13450 3200 50  0000 C CNN
+F 1 "FC71101" H 13500 2900 50  0000 C CNN
+F 2 "CLIFF:FC71101" H 13650 3050 60  0001 C CNN
+F 3 "" H 13650 3050 60  0000 C CNN
+	2    13650 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L FC71101 SW101
+U 3 1 558E093B
+P 13950 2150
+F 0 "SW101" H 13750 2300 50  0000 C CNN
+F 1 "FC71101" H 13800 2000 50  0000 C CNN
+F 2 "CLIFF:FC71101" H 13950 2150 60  0001 C CNN
+F 3 "" H 13950 2150 60  0000 C CNN
+	3    13950 2150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13350 1950 13350 1600
+Wire Wire Line
+	13250 1600 13250 1750
+Wire Wire Line
+	13250 1750 13050 1750
+Wire Wire Line
+	13050 1750 13050 2450
+Wire Wire Line
+	13050 2450 13250 2450
+Wire Wire Line
+	13250 2450 13250 2350
+Wire Wire Line
+	13450 2350 13450 2550
+Wire Wire Line
+	13450 2550 12950 2550
+Wire Wire Line
+	12950 2550 12950 1800
+Wire Wire Line
+	12950 1800 13450 1800
+Wire Wire Line
+	13450 1800 13450 1600
+Wire Wire Line
+	13950 1950 13950 1600
+Wire Wire Line
+	14050 1600 14050 1750
+Wire Wire Line
+	14050 1750 14300 1750
+Wire Wire Line
+	14300 1750 14300 2450
+Wire Wire Line
+	14300 2450 14050 2450
+Wire Wire Line
+	14050 2450 14050 2350
+Wire Wire Line
+	13850 2350 13850 2550
+Wire Wire Line
+	13850 2550 14400 2550
+Wire Wire Line
+	14400 2550 14400 1800
+Wire Wire Line
+	14400 1800 13850 1800
+Wire Wire Line
+	13850 1800 13850 1600
+Wire Wire Line
+	13650 2850 13650 1600
+Wire Wire Line
+	13550 1600 13550 2700
+Wire Wire Line
+	13550 2700 13350 2700
+Wire Wire Line
+	13350 2700 13350 3400
+Wire Wire Line
+	13350 3400 13550 3400
+Wire Wire Line
+	13550 3400 13550 3250
+Wire Wire Line
+	13750 3250 13750 3400
+Wire Wire Line
+	13750 3400 13950 3400
+Wire Wire Line
+	13950 3400 13950 2700
+Wire Wire Line
+	13950 2700 13750 2700
+Wire Wire Line
+	13750 2700 13750 1600
+$Comp
+L B9B-EH-A P103
+U 1 1 558E2319
+P 13650 1400
+F 0 "P103" H 13650 1900 50  0000 C CNN
+F 1 "B9B-EH-A" V 13750 1400 50  0000 C CNN
+F 2 "Connectors_JST:B9B-EH-A" H 13650 1400 60  0001 C CNN
+F 3 "" H 13650 1400 60  0000 C CNN
+	1    13650 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OSWT1608C1A D107
+U 1 1 558E2E41
+P 10550 1700
+F 0 "D107" H 10550 1780 50  0000 C CNN
+F 1 "OSWT1608C1A" H 10550 1610 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10450 1700 60  0001 C CNN
+F 3 "" H 10550 1800 60  0000 C CNN
+	1    10550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSWT1608C1A D106
+U 1 1 558E2EEB
+P 10550 1400
+F 0 "D106" H 10550 1480 50  0000 C CNN
+F 1 "OSWT1608C1A" H 10550 1310 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10450 1400 60  0001 C CNN
+F 3 "" H 10550 1500 60  0000 C CNN
+	1    10550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCR03ERTF1001 R115
+U 1 1 558E2F8D
+P 9900 1700
+F 0 "R115" V 9975 1700 50  0000 C CNN
+F 1 "MCR03ERTF1001" V 10050 1700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9840 1700 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 9980 1700 30  0001 C CNN
+F 4 "1k" V 10050 1700 50  0000 C CNN "Value"
+	1    9900 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L MCR03ERTF1001 R114
+U 1 1 558E3031
+P 9900 1400
+F 0 "R114" V 9975 1400 50  0000 C CNN
+F 1 "MCR03ERTF1001" V 10050 1400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9840 1400 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/jp/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g-j.pdf" V 9980 1400 30  0001 C CNN
+F 4 "1k" V 10050 1400 50  0000 C CNN "Value"
+	1    9900 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 1400 10350 1400
+Wire Wire Line
+	10000 1700 10350 1700
+Wire Wire Line
+	9800 1400 9350 1400
+Wire Wire Line
+	9350 1400 9350 2000
+Connection ~ 9350 2000
+Wire Wire Line
+	9800 1700 9350 1700
+Connection ~ 9350 1700
+Wire Wire Line
+	10750 1400 11350 1400
+Connection ~ 11350 2000
+Wire Wire Line
+	10750 1700 11350 1700
+Connection ~ 11350 1700
+$Comp
+L B3B-EH-A P102
+U 1 1 558E3B11
+P 6700 1400
+F 0 "P102" H 6700 1600 50  0000 C CNN
+F 1 "B3B-EH-A" V 6800 1400 50  0000 C CNN
+F 2 "Connectors_JST:B3B-EH-A" H 6700 1400 60  0001 C CNN
+F 3 "" H 6700 1400 60  0000 C CNN
+	1    6700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L B3B-EH-A P104
+U 1 1 558E3E1F
+P 7200 1400
+F 0 "P104" H 7200 1600 50  0000 C CNN
+F 1 "B3B-EH-A" V 7300 1400 50  0000 C CNN
+F 2 "Connectors_JST:B3B-EH-A" H 7200 1400 60  0001 C CNN
+F 3 "" H 7200 1400 60  0000 C CNN
+	1    7200 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L B3B-EH-A P105
+U 1 1 558E3ED3
+P 7700 1400
+F 0 "P105" H 7700 1600 50  0000 C CNN
+F 1 "B3B-EH-A" V 7800 1400 50  0000 C CNN
+F 2 "Connectors_JST:B3B-EH-A" H 7700 1400 60  0001 C CNN
+F 3 "" H 7700 1400 60  0000 C CNN
+	1    7700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GRM188R60J106ME47J C113
+U 1 1 558F7D73
+P 5700 8500
+F 0 "C113" V 5500 8500 50  0000 C CNN
+F 1 "GRM188R60J106ME47J" V 5600 8100 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5700 8500 10  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5750 8600 60  0001 C CNN
+F 4 "1608" H 5700 8500 10  0000 C CNN "Size"
+F 5 "10u" V 5600 8500 50  0000 C CNN "Value"
+	1    5700 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 8450 5700 8300
+Connection ~ 5700 8300
+Wire Wire Line
+	5700 8550 5700 8700
+Connection ~ 5700 8700
+$EndSCHEMATC

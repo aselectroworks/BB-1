@@ -1,0 +1,14 @@
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.rpt
+*.ses
+*.tmp
+*.dsn
+_autosave*
+*$*
+*.dae
+*.stl
+*.stp
+output/
+!*.lib

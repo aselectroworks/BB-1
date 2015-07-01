@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name neutric)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library\modules\neutric.pretty)(options "")(descr ""))
+  (lib (name taiwanalpha)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library\modules\taiwanalpha.pretty)(options "")(descr ""))
+  (lib (name marushin-musen)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library/modules/marushin-musen.pretty)(options "")(descr ""))
+  (lib (name rohm)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library/modules/rohm.pretty)(options "")(descr ""))
+  (lib (name CLIFF)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library\modules\CLIFF.pretty)(options "")(descr ""))
+  (lib (name ALPS)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library\modules\ALPS.pretty)(options "")(descr ""))
+  (lib (name Connectors_JST)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library\modules\Connectors_JST.pretty)(options "")(descr ""))
+  (lib (name slotholes)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library\modules\slotholes.pretty)(options "")(descr ""))
+)
